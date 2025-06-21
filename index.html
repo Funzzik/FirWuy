@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FirWuy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="body-container" id="bodyContainer">
+
+        <div class="background">
+            <img src="images/home-line-left.png" alt="Line" class="home__line-left">
+            <img src="images/home-line-right.png" alt="Line" class="home__line-right">
+            <img src="images/home-cat.png" alt="Cat" class="home__cat">
+            <img src="images/home-grooming-background.png" alt="Background" class="home__background">
+
+            <img src="images/about-us-background.png" alt="Background" class="about-us__background">
+            <img src="images/about-us-line.png" alt="Line" class="about-us__line">
+
+            <img src="images/our-works-backgound.png" alt="Background" class="our-services__background">
+            <img src="images/service-background.png" alt="Background" class="our-services__service-background care">
+            <img src="images/service-background.png" alt="Background" class="our-services__service-background for-cats">
+            <img src="images/service-background.png" alt="Background" class="our-services__service-background molting">
+            <img src="images/service-background.png" alt="Background" class="our-services__service-background spa">
+            <img src="images/service-background.png" alt="Background" class="our-services__service-background hygiene">
+            <img src="images/service-line-1.png" alt="Line" class="our-services__line--1">
+            <img src="images/service-line-2.png" alt="Line" class="our-services__line--2">
+            <img src="images/service-line-3.png" alt="Line" class="our-services__line--3">
+            <img src="images/sign-up-background.png" alt="Background" class="our-services__sign-up-background">
+            <img src="images/sing-up-image.png" alt="Background" class="our-services__sign-up-image">
+
+            <img src="images/price-backgound.png" alt="Background" class="price__price-backgound">
+            <img src="images/size-background.png" alt="Background" class="price__size-backgound">
+            <img src="images/price-line.png" alt="Line" class="price__line">
+            <img src="images/price-note-background.png" alt="Background" class="price__note-background">
+
+            <img src="images/our-works-backgound.png" alt="Background" class="our-works__backgound">
+            <img src="images/our-works-background-1.png" alt="Background" class="our-works__image-backgound --1">
+            <img src="images/our-works-background-2.png" alt="Background" class="our-works__image-backgound --2">
+            <img src="images/our-works-background-3.png" alt="Background" class="our-works__image-backgound --3">
+            <img src="images/our-works-line.png" alt="Line" class="our-works__line">
+
+            <img src="images/footer-backgound.png" alt="Background" class="footer__backgound">
+        </div>
+
+        <header class="header">
+            <a href="#" class="header__logo">FirWuy</a>
+            <div class="header__buttons">
+                <button class="header__button" onclick="scrollToServices()">
+                    <p class="header__button-text">Услуги</p>
+                </button>
+                <button class="header__button" onclick="scrollToFeedbackForm()">
+                    <p class="header__button-text">Запись</p>
+                </button>
+                <button class="header__button" onclick="scrollToPortfolio()">
+                    <p class="header__button-text">Портфолио</p>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <section class="home">
+                <p class="home__title">Груминг ваших любимцев</p>
+                <p class="home__subtitle">Забота, опыт и любовь к вашему питомцу — мы делаем их красивыми и счастливыми.
+                </p>
+            </section>
+            <section class="about-us" id="whyAreWe">
+                <p class="about-us__title">Почему выбирают нас?</p>
+                <div class="about-us__advantages">
+                    <div class="about-us__advantage --1">
+                        <img src="images/about-us-image-1.png" alt="Icon" class="advantage-about-us__image">
+                        <p class="about-us__about-us__advantage-text">Профессиональные <br> мастера</p>
+                    </div>
+                    <div class="about-us__advantage --2">
+                        <img src="images/about-us-image-2.png" alt="Icon" class="advantage-about-us__image">
+                        <p class="about-us__about-us__advantage-text">Стерильное <br> оборудование</p>
+                    </div>
+                    <div class="about-us__advantage --3">
+                        <img src="images/about-us-image-3.png" alt="Icon" class="advantage-about-us__image">
+                        <p class="about-us__about-us__advantage-text">Безопасные и <br> качественные продукты</p>
+                    </div>
+                    <div class="about-us__advantage --4">
+                        <img src="images/about-us-image-4.png" alt="Icon" class="advantage-about-us__image">
+                        <p class="about-us__about-us__advantage-text">Уютная атмосфера <br> для животных</p>
+                    </div>
+                </div>
+            </section>
+            <section class="our-services" id="services">
+                <p class="our-services__title">Наши услуги</p>
+                <div class="our-services__services">
+                    <div class="our-services__service --right">
+                        <div class="our-services__service-description">
+                            <p class="our-services__service-title">Комплексной уход</p>
+                            <p class="our-services__service-text">Погрузись в гармонию ухода, где каждая процедура
+                                работает на результат: здоровая кожа, расслабленное тело и восстановившаяся энергия. Наш
+                                комплексный подход сочетает лучшие практики — от глубокой очистки и интенсивного питания
+                                до релаксирующих массажей и омолаживающих масок.</p>
+                        </div>
+                        <img src="images/care-image.png" alt="Image" class="our-services__service-image">
+                    </div>
+                    <div class="our-services__service --left">
+                        <img src="images/services-for-cat-image.png" alt="Image" class="our-services__service-image">
+                        <div class="our-services__service-description">
+                            <p class="our-services__service-title --left-1">Услуги для кошек</p>
+                            <p class="our-services__service-text">Груминг для кошек — это комплекс процедур по уходу за
+                                шерстью, кожей и когтями, который помогает поддерживать здоровье, чистоту и хорошее
+                                настроение вашего питомца. Правильный уход способствует предотвращению возникновения
+                                кожных заболеваний, паразитов и обеспечивает комфорт вашему коту.</p>
+                        </div>
+                    </div>
+                    <div class="our-services__service --right">
+                        <div class="our-services__service-description">
+                            <p class="our-services__service-title">Экспресс-линька</p>
+                            <p class="our-services__service-text">Экспресс-линька — это быстрая и профессиональная
+                                процедура с целью удаления старой, поврежденной или спутанной шерсти у кошек. Эта услуга
+                                особенно популярна у владельцев длинношерстных пород, которым необходимо быстро привести
+                                шерсть в порядок без длительных процедур.</p>
+                        </div>
+                        <img src="images/express-molting-image.png" alt="Image" class="our-services__service-image">
+                    </div>
+                    <div class="our-services__service --left">
+                        <img src="images/SPA-image.png" alt="Image" class="our-services__service-image">
+                        <div class="our-services__service-description">
+                            <p class="our-services__service-title --left-2">SPA-процедуры</p>
+                            <p class="our-services__service-text">Комплекс расслабляющих, оздоровительных и
+                                гигиенических процедур, направленных на улучшение общего состояния питомца, укрепление
+                                шерсти и кожи, а также создание приятной атмосферы и снятие стресса.</p>
+                        </div>
+                    </div>
+                    <div class="our-services__service --right">
+                        <div class="our-services__service-description">
+                            <p class="our-services__service-title">Гигиена</p>
+                            <p class="our-services__service-text">Гигиена для кошек и собак — важная часть ухода за
+                                питомцами, которая помогает поддерживать их здоровье, предотвращать заболевания и
+                                обеспечивать комфорт. Регулярная гигиена включает уход за шерстью, кожей, зубами, ушами
+                                и когтями.</p>
+                        </div>
+                        <img src="images/hygiene-image.png" alt="Image" class="our-services__service-image">
+                    </div>
+                </div>
+                <a class="our-services__sing-up" id="feedbackButton" onclick="activeForm()">Записаться на груминг</a>
+            </section>
+            <section class="price">
+                <p class="price__title">Стоимость пород</p>
+                <div class="price__sizes-breeds">
+                    <a class="price__size-breed active" onclick="openSmallBreeds(); toggleActiveClass(this)">Малые</a>
+                    <a class="price__size-breed" onclick="openMediumBreeds(); toggleActiveClass(this)">Средние</a>
+                    <a class="price__size-breed" onclick="openBigBreeds(); toggleActiveClass(this)">Крупные</a>
+                    <a class="price__size-breed" onclick="openCatBreeds(); toggleActiveClass(this)">Кошки</a>
+                </div>
+
+                <div class="price__breed-cards --1">
+                    <div class="price__breed-card">
+                        <img src="images/breed-image-1-1.png" alt="Image" class="price__card-image">
+                        <p class="price__card-description">Груминг Йорка Комплексный уход</p>
+                        <img src="images/card-price-background.png" alt="Background"
+                            class="price__card-price-background">
+                        <p class="price__card-price">900 - 1600 руб.</p>
+                    </div>
+                    <div class="price__breed-card">
+                        <img src="images/breed-image-1-2.png" alt="Image" class="price__card-image">
+                        <p class="price__card-description">Груминг Шпица
+                            Комплексный уход</p>
+                        <img src="images/card-price-background.png" alt="Background"
+                            class="price__card-price-background">
+                        <p class="price__card-price">1200 - 1600 руб.</p>
+                    </div>
+                    <div class="price__breed-card">
+                        <img src="images/breed-image-1-3.png" alt="Image" class="price__card-image">
+                        <p class="price__card-description">Груминг Чихуахуа
+                            Комплексный уход</p>
+                        <img src="images/card-price-background.png" alt="Background"
+                            class="price__card-price-background">
+                        <p class="price__card-price">1100 - 1300 руб.</p>
+                    </div>
+                </div>
+
+                <div class="price__breed-cards --2">
+                    <div class="price__breed-card">
+                        <img src="images/breed-image-2-1.png" alt="Image" class="price__card-image">
+                        <p class="price__card-description">Груминг Кокер-спаниель
+                            Комплексный уход</p>
+                        <img src="images/card-price-background.png" alt="Background"
+                            class="price__card-price-background">
+                        <p class="price__card-price">1200 - 1800 руб.</p>
+                    </div>
+                    <div class="price__breed-card">
+                        <img src="images/breed-image-2-2.png" alt="Image" class="price__card-image">
+                        <p class="price__card-description">Груминг Корги
+                            Комплекс с экспресс-линькой</p>
+                        <img src="images/card-price-background.png" alt="Background"
+                            class="price__card-price-background">
+                        <p class="price__card-price">1600 руб.</p>
+                    </div>
+                    <div class="price__breed-card">
+                        <img src="images/breed-image-2-3.png" alt="Image" class="price__card-image">
+                        <p class="price__card-description">Груминг Сиба- ину
+                            Комплексный уход</p>
+                        <img src="images/card-price-background.png" alt="Background"
+                            class="price__card-price-background">
+                        <p class="price__card-price">от 1600 руб.</p>
+                    </div>
+                </div>
+
+                <div class="price__breed-cards --3">
+                    <div class="price__breed-card">
+                        <img src="images/breed-image-3-1.png" alt="Image" class="price__card-image">
+                        <p class="price__card-description">Груминг Самоеда
+                            Комплексный уход</p>
+                        <img src="images/card-price-background.png" alt="Background"
+                            class="price__card-price-background">
+                        <p class="price__card-price">от 2400 руб.</p>
+                    </div>
+                    <div class="price__breed-card">
+                        <img src="images/breed-image-3-2.png" alt="Image" class="price__card-image">
+                        <p class="price__card-description">Груминг Хаски
+                            Комплексный уход</p>
+                        <img src="images/card-price-background.png" alt="Background"
+                            class="price__card-price-background">
+                        <p class="price__card-price">от 2000 руб.</p>
+                    </div>
+                    <div class="price__breed-card">
+                        <img src="images/breed-image-3-3.png" alt="Image" class="price__card-image">
+                        <p class="price__card-description">Груминг Лабрадора
+                            Комплексный уход</p>
+                        <img src="images/card-price-background.png" alt="Background"
+                            class="price__card-price-background">
+                        <p class="price__card-price">от 1600 руб.</p>
+                    </div>
+                </div>
+
+                <div class="price__breed-cards --4">
+                    <div class="price__breed-card">
+                        <img src="images/breed-image-4-1.png" alt="Image" class="price__card-image">
+                        <p class="price__card-description">Стрижка кошки под машинку</p>
+                        <img src="images/card-price-background.png" alt="Background"
+                            class="price__card-price-background">
+                        <p class="price__card-price">от 800 руб.</p>
+                    </div>
+                    <div class="price__breed-card">
+                        <img src="images/breed-image-4-2.png" alt="Image" class="price__card-image">
+                        <p class="price__card-description">Кошки. Мытье, сушка и вычесывание</p>
+                        <img src="images/card-price-background.png" alt="Background"
+                            class="price__card-price-background">
+                        <p class="price__card-price">от 1400 руб.</p>
+                    </div>
+                    <div class="price__breed-card">
+                        <img src="images/breed-image-4-3.png" alt="Image" class="price__card-image">
+                        <p class="price__card-description">Кошки. Вычесывание без мытья</p>
+                        <img src="images/card-price-background.png" alt="Background"
+                            class="price__card-price-background">
+                        <p class="price__card-price">от 1000 руб.</p>
+                    </div>
+                </div>
+
+                <p class="price__price-note">Финальная стоимость будет определена после осмотра, <br> так как она зависит от объема
+                    необходимых работ.</p>
+            </section>
+            <section class="our_works" id="portfolio">
+                <p class="our-works__title">Наши работы</p>
+                <p class="our-works__before-and-after">ДО/ПОСЛЕ</p>
+                <div class="our-works__images">
+                    <img src="images/our-works-image-1.png" alt="Image" class="our-works__image --1">
+                    <img src="images/our-works-image-2.png" alt="Image" class="our-works__image --2">
+                    <img src="images/our-works-image-3.png" alt="Image" class="our-works__image --3">
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer__logo-and-confidentiality">
+                <a href="#" class="footer__logo">FirWuy</a>
+                <a href=index1.html class="footer__confidentiality">Политика конфиденциальности</a>
+            </div>
+            <div class="footer__links">
+                <a class="footer__link" onclick="scrollToServices()">Услуги</a>
+                <a class="footer__link" onclick="scrollToFeedbackForm()">Записаться на груминг</a>
+                <a class="footer__link" onclick="scrollToWhyAreWe()">Почему мы?</a>
+            </div>
+            <div class="footer__contacts">
+                <p class="footer__contacts-title">Наши контакты</p>
+                <p class="footer__contact">Телефон: +79535106203</p>
+                <p class="footer__contact">Email: grumung1@mail.ru</p>
+            </div>
+            <p class="footer__adress">Адрес: г. Вологда, ул. <br> Ленинградская 52а</p>
+
+        </footer>
+
+
+        <div class="feedback-form__overlay" id="feedbackFormOverlay"></div>
+
+        <div class="feedback-form" id="feedbackForm">
+            <button class="feedback-form__close-button --TS" id="closeFeedbackForm">
+                <div class="feedback-form__close-button-line --TS --1"></div>
+                <div class="feedback-form__close-button-line --TS --2"></div>
+            </button>
+            <div class="feedback-form__popup-frame --1" id="firstFramefeedbackForm">
+                <form class="feedback-form__form">
+                    <label for="inputOne">
+                        <p class="feedback-form__title--1">Ваше имя</p>
+                        <input class="feedback-form__input --name" placeholder="Имя" id="inputOne" />
+                    </label>
+                    <label for="inputTwo">
+                        <p class="feedback-form__title--2">Номер телефона</p>
+                        <input class="feedback-form__input --phone" placeholder="Номер телефона" id="inputTwo" />
+                    </label>
+                    <label for="inputThree">
+                        <p class="feedback-form__title--3">Сообщение</p>
+                        <textarea name="Message" class="feedback-form__input--comment"
+                            placeholder="Просим указывать тут породу и услугу, а так же личные пожелания"></textarea>
+                    </label>
+                    <button class="feedback-form__button" id="InputButton">Отправить запрос</button>
+                    <label class="feedback-form__confidentiality">
+                        <input type="checkbox" class="feedback-form__check-box" id="checkMarkContainer">
+                         <a href="index1.html" class="feedback-form__confidentiality-text">
+    Нажимая на эту кнопку вы автоматически <br>
+    соглашаетесь на обработку персональных данных
+  </a>
+                    </label>
+                </form>
+                <div class="feedback-form__text-container">
+                    <div class="feedback-form__our-contacts">
+                        <p class="feedback-form__contacts-title">Наши контакты</p>
+                        <p class="feedback-form__contact">Телефон: +79535106203</p>
+                        <p class="feedback-form__contact">Email: grumung1@mail.ru</p>
+                        <p class="feedback-form__contact">Адрес: г. Вологда, ул. <br> Ленинградская 52а</p>
+                    </div>
+                    <div class="feedback-form__working-mode">
+                        <p class="feedback-form__work-title">Режим работы</p>
+                        <p class="feedback-form__work-time">С понедельника по пятницу с 9:00 до 21:00</p>
+                        <p class="feedback-form__work-time">В субботу с 10:00 до 20:00</p>
+                        <p class="feedback-form__work-time">Воскресенье - выходной</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback-form__popup-frame --2" id="secondFramefeedbackForm">
+                <div class="feedback-form__spinner-circle"></div>
+            </div>
+            <div class="feedback-form__popup-frame --3" id="thirdFramefeedbackForm">
+                <p class="feedback-form__thanks">Заявка успешно отправлена!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
